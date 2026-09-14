@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/plaid",
+  "title": "Plaid",
+  "description": "Plaid MCP — wraps Plaid Sandbox API (sandbox.plaid.com)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/plaid",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-plaid",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/plaid/mcp"
+    }
+  ]
+}
