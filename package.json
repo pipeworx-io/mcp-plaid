@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-plaid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Plaid MCP — wraps Plaid Sandbox API (sandbox.plaid.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-2134a928fbc4349b2711c39f6d2c0831829e3d65fddc0f6b00c66b51337d24f1",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-9669eeb15ad2406c66b9c441451c2f60d3e8a54d0a078a6b66a153be34bbb72a",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
