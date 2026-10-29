@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-plaid",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Plaid MCP — wraps Plaid Sandbox API (sandbox.plaid.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-plaid": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "plaid"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-plaid.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/plaid",
   "pipeworx": {
-    "sourceHash": "v1-9669eeb15ad2406c66b9c441451c2f60d3e8a54d0a078a6b66a153be34bbb72a",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "plaid",
+    "gatewaySlug": "plaid",
+    "sourceHash": "v1-7d7763a216a10caa31ea643e6739c89de30653959349e61cde872392b7aa3e47",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
