@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-plaid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Plaid MCP — wraps Plaid Sandbox API (sandbox.plaid.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "plaid",
     "gatewaySlug": "plaid",
-    "sourceHash": "v1-7d7763a216a10caa31ea643e6739c89de30653959349e61cde872392b7aa3e47",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-7bf6c5e169d234ba5a5a60a97e97ba0612613b2a121bc13206b6fa0ed071800d",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
